@@ -4,9 +4,9 @@ Mini app en JavaScript vanilla para cumplir la consigna de construir, auditar y 
 
 ## Publicacion
 
-Repositorio publico: reemplazar con el enlace del repositorio en GitHub.
+Repositorio publico: https://github.com/joamendozacuevas/juego-memoria
 
-Demo en GitHub Pages: reemplazar con `https://joamendozacuevas.github.io/juego-memoria/`.
+Demo en GitHub Pages: `https://joamendozacuevas.github.io/juego-memoria/`.
 
 ## Archivos
 
