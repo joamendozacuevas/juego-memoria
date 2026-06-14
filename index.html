@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Juego de Memoria</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <main class="app">
+    <header class="app__header">
+      <div>
+        <p class="eyebrow">DOM + Eventos</p>
+        <h1>Juego de Memoria</h1>
+      </div>
+      <p id="estado" class="status" aria-live="polite">Encuentra todas las parejas.</p>
+    </header>
+
+    <section class="panel" aria-label="Controles del juego">
+      <label class="field">
+        <span>Jugador</span>
+        <input id="nombre" type="text" maxlength="24" placeholder="Tu nombre">
+      </label>
+
+      <label class="field">
+        <span>Dificultad</span>
+        <select id="dificultad">
+          <option value="4">Facil - 4 parejas</option>
+          <option value="6">Media - 6 parejas</option>
+          <option value="8" selected>Dificil - 8 parejas</option>
+        </select>
+      </label>
+
+      <button id="reiniciar" type="button">Reiniciar</button>
+    </section>
+
+    <section class="scoreboard" aria-label="Marcadores">
+      <div>
+        <span>Movimientos</span>
+        <strong id="movimientos">0</strong>
+      </div>
+      <div>
+        <span>Tiempo</span>
+        <strong id="tiempo">00:00</strong>
+      </div>
+      <div>
+        <span>Mejor puntaje</span>
+        <strong id="mejor">--</strong>
+      </div>
+    </section>
+
+    <section id="tablero" class="board" aria-label="Tablero de cartas"></section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
