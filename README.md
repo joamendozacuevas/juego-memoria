@@ -39,3 +39,11 @@ La IA ayudo a estructurar el codigo y detectar riesgos tipicos: doble click, ter
 
 Mejora futura
 Con mas tiempo agregaria una animacion de volteo mas elaborada y una tabla de mejores puntajes por jugador, manteniendo los datos validados antes de guardarlos.
+
+
+
+## Publicacion
+
+Repositorio publico: reemplazar con el enlace del repositorio en GitHub.
+
+Demo en GitHub Pages: reemplazar con `https://joamendozacuevas.github.io/juego-memoria/`.
